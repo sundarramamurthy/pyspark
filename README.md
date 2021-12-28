@@ -24,7 +24,7 @@ df = spark.read.option(header='True', inferSchema='True',delimiter=',').csv("/tm
 ```
 
 
-### Easily reference these as F.my_function() and T.my_type() below
+### Easily reference these as F.func() and T.type()
 ```
 from pyspark.sql import functions as F, types as T
 ```
