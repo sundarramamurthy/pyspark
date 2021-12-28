@@ -17,5 +17,6 @@ df = df.filter((df.age > 25) & (df.is_adult == 'Y'))
 df = df.filter(col('first_name').isin([3, 4, 7]))
 
 ### Sort results
-df = df.orderBy(df.age.asc()))
-df = df.orderBy(df.age.desc()))
+`df = df.orderBy(df.age.asc()))
+df = df.orderBy(df.age.desc()))`
+
