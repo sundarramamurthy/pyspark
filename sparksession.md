@@ -8,8 +8,16 @@ spark = SparkSession.builder.master("local[1]") \
 .appName('myapp.com') \
 .getOrCreate()
 ```
-
 It’s object spark is default available in pyspark-shell and it can be created programmatically using SparkSession
+
+**Spark Session available APIs in different contexts –**
+
+<ul>Spark Context</ul>
+<ul>SQL Context</ul>
+<ul>Streaming Context</ul>
+<ul>Hive Context</ul>
+
+You can create as many SparkSession objects you want using either **SparkSession.builder** or **SparkSession.newSession**.
 
 
 
