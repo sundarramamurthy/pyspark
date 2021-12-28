@@ -1,6 +1,13 @@
-<p><strong>SparkSession</strong><br />SparkSession introduced in version 2.0, is an entry point to underlying PySpark functionality in order to programmatically create <strong>PySpark RDD, DataFrame.</strong></p>
-<p><br />It&rsquo;s object spark is default available in pyspark-shell and it can be created programmatically using <strong>SparkSession</strong></p>
-<p><span style="text-decoration: underline;"><strong>Code to create spark session</strong></span></p>
-<p><code>import pyspark</code><br /><code>from pyspark.sql import SparkSession</code><br /><code>spark = SparkSession.builder.master("local[1]") \</code><br /><code>.appName('SparkByExamples.com') \</code><br /><code>.getOrCreate()</code></p>
-<p><code></code></p>
-<p>&nbsp;</p>
+SparkSession
+SparkSession introduced in version 2.0, is an entry point to underlying PySpark functionality in order to programmatically create PySpark RDD, DataFrame.
+
+
+It’s object spark is default available in pyspark-shell and it can be created programmatically using SparkSession
+
+Code to create spark session
+
+import pyspark
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[1]") \
+.appName('SparkByExamples.com') \
+.getOrCreate()
