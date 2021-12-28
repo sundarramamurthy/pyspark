@@ -1,4 +1,19 @@
-# pyspark quick reference
+Using PySpark we can process data from Hadoop HDFS, AWS S3, and many file systems. PySpark also is used to process real-time data using Streaming and Kafka.
+
+All Spark examples provided in this PySpark (Spark with Python) tutorial is basic, simple, and easy to practice for beginners who are enthusiastic to learn PySpark and advance their career in BigData and Machine Learning.
+
+## Features of PySpark
+<ul>In-memory computation</ul>
+<ul>Distributed processing using parallelize</ul>
+<ul>Can be used with many cluster managers (Spark, Yarn, Mesos e.t.c)</ul>
+<ul>Fault-tolerant</ul>
+<ul>Immutable</ul></ul>
+<ul>Lazy evaluation</ul>
+<ul>Cache & persistence</ul>
+<ul>Inbuild-optimization when using DataFrames</ul>
+<ul>Supports ANSI SQL</ul>
+
+# PySpark Quick Reference
 A quick reference guide to the most commonly used patterns and functions in PySpark SQL
 
 ### Read CSV file into DataFrame with schema and delimited as comma
