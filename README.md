@@ -1,6 +1,14 @@
 # pyspark quick reference
 A quick reference guide to the most commonly used patterns and functions in PySpark SQL
 
+### Read CSV file into DataFrame with header
+```
+
+df = spark.read.option("header",True).csv("/tmp/resources/sales.csv")
+
+```
+
+
 ### Easily reference these as F.my_function() and T.my_type() below
 ```
 from pyspark.sql import functions as F, types as T
